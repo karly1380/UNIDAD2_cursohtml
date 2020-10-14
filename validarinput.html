@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validar Input</title>
+</head>
+<body> 
+	<form method="post" action="#">
+		<label for="numeros">Numeros</label>
+		<input maxlength="10" minlength="4" type="text" name="numeros" required="" pattern="[0-9]+">
+		<br>
+		<br>
+		<label for="letras">Letras</label>
+		<br>
+
+		<input type="text" name="letras" required="" pattern="[a-zA-Z]" >
+		<br>
+		<br>
+		<button>Enviar</button>
+		<!--required Especifica si un campo de formulario debe completarse antes de que se pueda enviar el formulario -->
+		<!-- pattern permite en cualquier campo <input> de tipo texto y utilizando las sobradamente conocidas expresiones regulares delimitar exactamente la sintaxis de una cadena válida. -->
+	</form>
+
+</body>
+</html>
